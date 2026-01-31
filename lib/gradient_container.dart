@@ -16,7 +16,7 @@ class GradientContainer extends StatelessWidget {
           begin: start,
           end: end),),
       child: const Center(
-        child: CustomText(),
+        child: CustomText('Hello World!'),
       ),
     );
   }}
