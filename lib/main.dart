@@ -2,9 +2,9 @@ import 'package:flutter/material.dart';
 import 'package:class_project_1/gradient_container.dart';
 
 void main() {
-  runApp( const MaterialApp(
+  runApp(MaterialApp(
     home: Scaffold(
-      body: GradientContainer(),
+      body: GradientContainer(Colors.lightGreen, Colors.green, Colors.blue),
     ),
   ));
 }
